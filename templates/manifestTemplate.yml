@@ -1,0 +1,6 @@
+applications:
+- name: $apiManagement
+  host: $host
+  memory: 128M
+  services:
+    - tmf-compose-for-mongodb
